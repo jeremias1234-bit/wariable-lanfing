@@ -60,19 +60,7 @@ Si quieres clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pa
 ## 🌐 Despliegue (Deployment)
 
 La página se encuentra actualmente desplegada y disponible en producción en el siguiente enlace:
-👉 **[Inserta aquí el enlace de GitHub Pages, Vercel o Netlify]**
+👉 **https://wariabledigital.vercel.app/**
 
 ---
 
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
-
----
-
-## ✉️ Contacto y Cotizaciones
-
-¿Quieres llevar la automatización a tu empresa o necesitas un sistema a medida?
-*   **Agencia:** Wariable Digital
-*   **Sitio Web:** [Tu dominio oficial aquí]
-*   **LinkedIn / Contacto:** [Tu perfil o el de la empresa]
