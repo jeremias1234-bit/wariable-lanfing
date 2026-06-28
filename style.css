@@ -16,8 +16,10 @@ body {
     -webkit-font-smoothing: antialiased;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* <--- Deja solo uno */
     justify-content: center;
+    overflow-x: hidden;
+    align-items: center;
 }
 
 
@@ -41,12 +43,11 @@ body {
 
 /* CONTENEDORES */
 .container {
-    width: 100vw;
-    max-width: 1550px; /* <--- Subió de 1140px a 1300px */
+    width: 100%; /* <--- CAMBIADO de 100vw a 100% */
+    max-width: 1550px; 
     margin: 0 auto;
-    padding: 80px 40px; /* <--- Más aire arriba y a los costados */
+    padding: 80px 24px; /* <--- Reduje un poco el padding en móvil para ganar espacio */
     flex-grow: 1;
-    justify-content: space-between;
 }
 
 .section {
@@ -57,6 +58,7 @@ body {
 
 /* HERO */
 .hero {
+    width: 100%; 
     max-width: 100%;
     margin-bottom: 100px;
 }
@@ -115,11 +117,11 @@ body {
 
 @media (min-width: 768px) {
     .description { 
-        width: 50%;
-        font-family: 'Inter' , sans-serif;
-        font-size: 20px; /* <--- Subió de 18px a 20px */
-        color: #ffffff;  /* <--- Un gris un pelín más claro para que resalte más */
+        width: 100%; /* <--- AGREGADO para asegurar el espacio en móvil */
+        max-width: 600px; /* Evita que las líneas queden demasiado largas */
+        font-size: 16px;
         line-height: 1.6;
+        margin-bottom: 32px;
     }
 }
 
