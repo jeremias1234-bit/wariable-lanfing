@@ -40,7 +40,7 @@ Si quieres clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pa
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/jeremias1234-bit/wariable-lanfing.git
    ```
 
 2. **Navegar al directorio del proyecto:**
